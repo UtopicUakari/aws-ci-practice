@@ -7,3 +7,8 @@ test("renders learn react link", () => {
   const text = getByText(/Hello World/i);
   expect(text).toBeInTheDocument();
 });
+
+test("Snapshot matches", () => {
+  const container = render(<App />);
+  expect(container).toMatchSnapshot();
+});
