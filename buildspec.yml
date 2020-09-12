@@ -13,7 +13,11 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the Node.js code now
+      - npm run build
   post_build:
     commands:
       - echo Build completed on `date`
+      - zip -r package.zip build/
+artifacts:
+  files:
+    - package.zip
