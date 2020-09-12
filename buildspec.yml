@@ -13,7 +13,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the Node.js code
+      - echo Compiling the Node.js code now
   post_build:
     commands:
       - echo Build completed on `date`
