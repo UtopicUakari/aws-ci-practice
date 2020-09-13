@@ -17,7 +17,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - npm run test:integration
+      - npm run cy:run
 artifacts:
   files:
     - "**/*"
