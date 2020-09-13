@@ -17,7 +17,6 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - cd build; zip -r ../package.zip *
 artifacts:
   files:
-    - package.zip
+    - build/*
