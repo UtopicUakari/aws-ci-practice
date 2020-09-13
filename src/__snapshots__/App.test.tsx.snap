@@ -21,6 +21,11 @@ Object {
           >
             Hello World!
           </p>
+          <p
+            class="version"
+          >
+            V 0.2
+          </p>
         </header>
       </div>
     </div>
@@ -41,6 +46,11 @@ Object {
           class="content"
         >
           Hello World!
+        </p>
+        <p
+          class="version"
+        >
+          V 0.2
         </p>
       </header>
     </div>
